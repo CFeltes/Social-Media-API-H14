@@ -1,17 +1,22 @@
 {
-    "name": "social-media-api",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-      "express": "^4.21.0",
-      "mongoose": "^8.6.2"
-    }
+  "name": "social-media-api-h14",
+  "version": "1.0.0",
+  "description": "Fourteenth homework assignment",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CFeltes/Social-Media-API-H14.git"
+  },
+  "author": "CFeltes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CFeltes/Social-Media-API-H14/issues"
+  },
+  "homepage": "https://github.com/CFeltes/Social-Media-API-H14#readme",
+  "dependencies": {
+    "express": "^4.21.1"
   }
-  
+}
