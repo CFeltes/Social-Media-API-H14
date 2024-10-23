@@ -1,8 +1,12 @@
-const mongoose = require('mongoose');
+const { Client } = require('pg');
 
-mongoose.connect('mongodb://localhost/social_network_db', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
+const client = new Client({
+    user: 'postgres',
+    database: 'employee_db',
+    password: 'Bootcamp!',
+    port: 5432,
 });
 
-module.exports = mongoose.connection;
+client.connect();
+
+module.exports = client;
